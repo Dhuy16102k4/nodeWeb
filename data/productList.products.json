@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "673340c2d022c4fae2a41d93"
+  },
+  "name": "sp 7",
+  "price": 15000000,
+  "description": "test",
+  "category": {
+    "$oid": "672ddf8d0ea5c21f77761a24"
+  },
+  "img": "\\img\\1731412162114.png",
+  "stock": 0,
+  "createdAt": {
+    "$date": "2024-11-12T11:49:22.125Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T11:49:22.125Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673340ced022c4fae2a41d9a"
+  },
+  "name": "sp 8",
+  "price": 15000000,
+  "description": "test",
+  "category": {
+    "$oid": "672de00c0ea5c21f77761a39"
+  },
+  "img": "\\img\\1731412174398.png",
+  "stock": 0,
+  "createdAt": {
+    "$date": "2024-11-12T11:49:34.409Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T11:49:34.409Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673340d7d022c4fae2a41da1"
+  },
+  "name": "sp 9",
+  "price": 15000000,
+  "description": "test",
+  "category": {
+    "$oid": "672de00c0ea5c21f77761a39"
+  },
+  "img": "\\img\\1731412183031.png",
+  "stock": 0,
+  "createdAt": {
+    "$date": "2024-11-12T11:49:43.035Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T11:49:43.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673340edd022c4fae2a41da8"
+  },
+  "name": "sp 10",
+  "price": 15000000,
+  "description": "test",
+  "category": {
+    "$oid": "672de00c0ea5c21f77761a39"
+  },
+  "img": "\\img\\1731412205130.png",
+  "stock": 0,
+  "createdAt": {
+    "$date": "2024-11-12T11:50:05.134Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T11:50:05.134Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673340fdd022c4fae2a41db7"
+  },
+  "name": "sp 11",
+  "price": 15000000,
+  "description": "test",
+  "category": {
+    "$oid": "672ddf8d0ea5c21f77761a24"
+  },
+  "img": "\\img\\1731412221324.png",
+  "stock": 0,
+  "createdAt": {
+    "$date": "2024-11-12T11:50:21.328Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T11:50:21.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67334114d022c4fae2a41f1e"
+  },
+  "name": "sp 11",
+  "price": 15000000,
+  "description": "test",
+  "category": {
+    "$oid": "672de00c0ea5c21f77761a39"
+  },
+  "img": "\\img\\1731412244531.png",
+  "stock": 0,
+  "createdAt": {
+    "$date": "2024-11-12T11:50:44.535Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T11:50:44.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6733411dd022c4fae2a41f2d"
+  },
+  "name": "sp 11",
+  "price": 15000000,
+  "description": "test",
+  "category": {
+    "$oid": "672ddf8d0ea5c21f77761a24"
+  },
+  "img": "\\img\\1731412253791.png",
+  "stock": 0,
+  "createdAt": {
+    "$date": "2024-11-12T11:50:53.795Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T11:50:53.795Z"
+  },
+  "__v": 0
+}]
