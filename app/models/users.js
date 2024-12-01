@@ -44,7 +44,6 @@ UserSchema.pre('save', async function (next) {
     }
 });
 
-// Method to compare the entered password with the hashed password in the database
 UserSchema.methods.comparePassword = async function (enteredPassword) {
     return await bcrypt.compare(enteredPassword, this.password);
 };
@@ -52,3 +51,5 @@ UserSchema.methods.comparePassword = async function (enteredPassword) {
 const User = mongoose.model('User', UserSchema);
 
 module.exports = User;
+
+//themm phan dia chi 

@@ -30,11 +30,12 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: 'http://localhost:4000',
+  origin: '*', // Allow all origins
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 

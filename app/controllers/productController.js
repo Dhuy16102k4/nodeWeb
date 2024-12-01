@@ -83,17 +83,17 @@ class ProductController {
     update(req, res, next) {
         const productId = req.params.id;
         const { name, price, description, category } = req.body;
-    
+
         if (!name || !price || !description || !category) {
             return res.status(400).json({ message: 'All fields are required.' });
         }
-    
+
         Category.findById(category)
             .then(categoryObj => {
                 if (!categoryObj) return res.status(400).json({ message: 'Invalid category ID.' });
-    
+
                 const imgPath = req.file ? path.join('/img', req.file.filename) : req.body.img;
-    
+
                 return Product.findByIdAndUpdate(
                     productId,
                     { name, price, description, category: categoryObj._id, img: imgPath },
@@ -109,12 +109,12 @@ class ProductController {
                 res.status(500).json({ message: 'Failed to update product.' });
             });
     }
-    
+
 
     delete(req, res, next) {
-        const productId = req.params.id; // Xác nhận ID từ params
+        const productId = req.params.id;
         console.log('Product ID to delete:', productId);
-    
+
         Product.deleteOne({ _id: productId })
             .then(result => {
                 if (result.deletedCount === 0) return res.status(404).json({ message: 'Product not found.' });

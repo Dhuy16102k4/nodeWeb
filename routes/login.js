@@ -3,7 +3,7 @@ const router = express.Router();
 const loginController = require('../app/controllers/loginControllers');
 const authenticateToken = require('../middlerware/authToken');
 
-router.get('/auth/check', authenticateToken, (req, res) => {
+router.get('/check', authenticateToken, (req, res) => {
     res.status(200).json({ authenticated: true, name: req.user });
 });
 
